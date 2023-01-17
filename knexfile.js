@@ -17,7 +17,7 @@ module.exports = {
   staging: {
     client: "mysql",
     connection: {
-      database: "miniblog_dev",
+      database: "miniblog_staging",
       user: "miniblog",
       password: "1mM-SNBHNBde7Q",
     },
@@ -30,7 +30,7 @@ module.exports = {
   production: {
     client: "mysql",
     connection: {
-      database: "miniblog_dev",
+      database: "miniblog",
       user: "miniblog",
       password: "1mM-SNBHNBde7Q",
     },
